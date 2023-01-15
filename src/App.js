@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.css';
-import Header from './Components/Header';
-import Nav from './Components/Nav';
-import Main from './Components/Main';
-import Footer from './Components/Footer';
+import Header from './Components/Header/Header';
+import Main from './Components/Main/Main';
+import Footer from './Components/Footer/Footer';
 import {Helmet} from "react-helmet";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
         <meta property="og:description" content="The Little Lemon restaurant serves delicious food made with fresh ingredients. Come visit us and try our menu today!" />
         <meta property="og:site_name" content="The Little Lemon Restaurant" />
       </Helmet>
-      <Nav></Nav>
       <Header></Header>
       <Main></Main>
       <Footer></Footer>
