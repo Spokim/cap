@@ -1,0 +1,47 @@
+.card-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:'card-image card-image'
+                        'card-title card-price'
+                        'card-description card-description'
+                        'card-link .';
+    width: 300px;
+    height: 100%;
+    border-radius: 16px;
+    background-color: #edefee;
+    color: #333333;
+}
+
+.card-image {
+    grid-area: card-image;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.card-title {
+    grid-area: card-title;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px 0 0 10px;
+}
+
+.card-description {
+    grid-area: card-description;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.card-price {
+    grid-area: card-price;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: #ee9972;
+}
+
+.card-link {
+    grid-area: card-link;
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
