@@ -1,6 +1,5 @@
 .container {
     display: grid;
-    grid-template-rows: 2fr 2fr 1.5fr 1.5fr;
 }
 
 section {

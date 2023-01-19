@@ -1,0 +1,14 @@
+.TestimonialsTitle {
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.TestimonialContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 16px;
+    box-shadow: 3px;
+}

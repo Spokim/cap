@@ -1,0 +1,121 @@
+.ReservationSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 15%;
+}
+.ReservationPic {
+    height: 35vh;
+    background-image: url(/src/Images/restaurant.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ReservationFluff{
+    display: grid;
+}
+
+.FluffText {
+    align-self: center;
+    justify-self: center;
+    font-size: 64px;
+    margin: 0;
+}
+.StatusBar {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Stat {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+
+}
+
+.Circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: #fbdabb;
+}
+
+.Statit3 {
+    background-color: #ee9972;
+    color: #edefee;
+}
+
+.line {
+    background: linear-gradient(
+      to bottom,
+      white 0%,
+      white 48%,
+      #333333 49%,
+      #333333 52%,
+      white 53%,
+      white 100%
+    );
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* border: solid 1px seagreen; */
+    align-items: center;
+    font-size: 20px;
+    background-color: #495e57;
+    border-radius: 16px;
+    margin: 5% 0;
+}
+
+form label {
+    color: #edefee;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 0;
+}
+
+.Forminput {
+    width: 100%;
+    border-radius: 16px;
+    background-color: #edefee;
+    text-align: center;
+}
+
+.Special {
+    vertical-align: top;
+    text-align: start;
+    width: 250px;
+    height: 200px;
+    overflow: auto;
+    padding: 2%;
+}
+
+.ReservationButton {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4ce14;
+    border-radius: 16px;
+    margin: 2%;
+}
+
+.ReservationPic2 {
+    height: 35vh;
+    background-image: url(/src/Images/restaurantchef.jpg);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,54 @@
+.BookingSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.tell {
+    overflow-wrap: break-word;
+    width: 95%;
+}
+
+.SpecialMessage {
+    background-color: #495e57;
+    margin: 2% auto;
+    width: 60%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    padding-top: 2%;
+}
+h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    color: #edefee;
+}
+
+.h4 {
+    font-size: 16px;
+    color: #f4ce14;
+}
+
+.Booking {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.BookingButton {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4ce14;
+    border-radius: 16px;
+}
